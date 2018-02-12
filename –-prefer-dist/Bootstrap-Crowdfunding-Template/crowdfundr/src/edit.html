@@ -1,0 +1,182 @@
+---
+layout: page
+title: Pricing
+hide_footer: true
+---
+
+<br />
+<br />
+<br />
+<div class="container-fluid">
+    <div class="row">
+
+
+        <div class="col-sm-12">
+<ul class="breadcrumb">
+  <li><a href="edit-basics.html">Basics</a></li>
+  <li><a href="edit-story.html">Story</a></li>
+  <li><a href="edit-perks.html">Perks</a></li>
+  <li><a href="edit-about.html">About you</a></li>
+  <li><a href="edit-accounts.html">Account</a></li>
+</ul>
+
+          </div>
+
+        
+        <div class="col-sm-8">
+<h1>Let’s get started.</h1>
+<p>Make a great first impression with your project’s title and image, and set your funding goal, campaign duration, and project category.</p>
+
+<form>
+  <div class="form-group light-blue" >
+    <label for="exampleInputEmail1">Project image</label>
+        <p class="form-text text-muted">
+      This is the first thing that people will see when they come across your project. Choose an image that’s crisp and text-free. Here are some tips.
+    </p>
+                                    <p class="form-control-static">
+                                        <div style="border: 1px dashed #000; background: #fff; width: 100%; display: block; padding: 20px;" class="text-center">
+                                            <p class="text-center">
+                                              <a href=""><strong>Choose an image from your computer</strong></a>
+                                            </p>
+                                            <p>This is the main image associated with your project. Make it count!</p>    
+                                            <p>At least <strong>1024x576 pixels</strong> • 16:9 aspect ratio</p>    
+                                        </div>
+                                    </p>
+                                    <p class="form-text text-muted">
+                                        JPEG, PNG, GIF, or BMP • 50MB file limit
+                                    </p>
+
+  </div>
+  <div class="form-group light-blue">
+    <label for="exampleInputEmail1">Project title</label>
+    <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+<p class="form-text text-muted">
+  Our search looks through words from your project title and blurb, so make them clear and descriptive of what you’re making. Your profile name will be searchable, too.<br />
+
+These words will help people find your project, so choose them wisely! Your name will be searchable too.
+</p>  
+    </div>
+  <div class="form-group light-blue">
+    <label for="exampleInputEmail1">Short blurb</label>
+    <textarea class="form-control form-control-lg" rows="3"></textarea>
+<p id="passwordHelpBlock" class="form-text text-muted">
+  Give people a sense of what you’re doing. Skip “Help me” and focus on what you’re making.
+
+
+</p>  
+    </div>
+  <div class="form-group light-blue">
+    <label for="exampleInputEmail1">Category</label>
+    <div class="row">
+      <div class="col-6">
+        <select class="form-control custom-select">
+          {% for category in site.data.categories %}
+          <option value="1">{{ category.name }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="col-6">
+        <select class="form-control custom-select">
+          <option value="1">Subcategory (optional)</option>
+          {% for category in site.data.categories %}
+          <option value="1">{{ category.name }}</option>
+          {% endfor %}
+        </select>
+      </div>
+    </div>
+    </div>
+  <div class="form-group light-blue">
+    <label for="exampleInputEmail1">Project location</label>
+     <div class="input-group  input-group-lg">
+      <span class="input-group-btn">
+        <button class="btn btn-secondary" type="button"><i class="fa fa-location-arrow" aria-hidden="true"></i></button>
+      </span>
+      <input type="text" class="form-control" placeholder="Search for...">
+    </div>
+  </div>
+  <div class="form-group light-blue">
+    <label for="exampleInputEmail1">Funding duration</label>
+    <div class="input-group">
+  <input type="text" class="form-control form-control-lg" placeholder="" aria-describedby="basic-addon2">
+  <span class="input-group-addon" id="basic-addon2">number of days</span>
+</div>
+<p id="passwordHelpBlock" class="form-text text-muted">
+  Up to 60 days, but we recommend 30 or fewer
+</p>  
+    </div>
+  <div class="form-group light-blue">
+    <label for="exampleInputEmail1">Funding goal</label>
+    <div class="input-group  col-4 pl-0">
+  <input type="text" class="form-control form-control-lg" placeholder="" value="0" aria-describedby="basic-addon2">
+  <span class="input-group-addon" id="basic-addon2">GBP</span>
+</div>
+<p id="passwordHelpBlock" class="form-text text-muted">
+  If your project is successfully funded, the following fees will be collected from your funding total:  5% fee and payment processing fees (between 3% and 5%). Please note we do not withhold VAT. If funding isn’t successful, there are no fees.
+</p>  
+    </div>
+  <div class="form-group light-blue">
+    <label for="exampleInputEmail1">Project collaborators</label>
+
+
+    <div class="row mb-2">
+      <div class="col-6">
+        <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      </div>
+      <div class="col-6">
+
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-6">
+        <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      </div>
+      <div class="col-6">
+        <p  class="form-control-static pt-3"><a href="#"><i class="fa fa-plus" aria-hidden="true"></i> Add collaborator</a></p>
+      </div>
+    </div>
+
+    </div>
+
+  </fieldset>
+</form>
+<br />
+<br />
+<br />
+
+                </div>
+
+
+        <div class="col-sm-4">
+        <div class="row">
+        <div class="col-sm-10 offset-sm-2">
+
+
+               <strong>Getting started?</strong>
+               <p>Visit Campus to read discussions about preparing for a project and more.</p>
+               <br />
+               <strong>Preview</strong>
+<hr />
+				        {% for project in site.data.projects limit:1 %}
+					          {% include box.html project=project %}
+				        {% endfor %} 
+          </div>
+          </div>
+          </div>
+
+
+            </div>
+            <br />
+<br />
+<br />
+            </div>
+
+<nav class="navbar fixed-bottom navbar-light bg-faded" style="background: #fff; border-top: 1px solid #eee">
+          <div class="container">
+
+    <a href="edit.html" class="btn btn-primary btn-lg float-right">Save campaign</a>
+        <a href="edit.html" class="btn btn-link btn-lg float-right">Discard changes</a>
+
+  </div>
+</nav>

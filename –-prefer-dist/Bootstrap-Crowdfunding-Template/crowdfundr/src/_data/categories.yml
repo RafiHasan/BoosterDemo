@@ -1,0 +1,59 @@
+- name: Art
+  image: 1081
+  percentage: 20
+
+- name: Comics
+  image: 1084
+  percentage: 60
+
+- name: Crafts
+  image: 1064
+  percentage: 55
+
+- name: Dance
+  image: 1027
+  percentage: 40
+
+- name: Design
+  image: 885
+  percentage: 35
+
+- name: Fashion
+  image: 535
+  percentage: 75
+
+- name: Film & Video
+  image: 882
+  percentage: 80
+
+- name: Food
+  image: 835
+  percentage: 95
+
+- name: Games
+  image: 660
+  percentage: 15
+
+- name: Journalism
+  image: 668
+  percentage: 66
+
+- name: Music
+  image: 529
+  percentage: 44
+
+- name: Photography
+  image: 531
+  percentage: 33
+
+- name: Publishing
+  image: 625
+  percentage: 22
+
+- name: Technology
+  image: 532
+  percentage: 12
+
+- name: Theater
+  image: 590
+  percentage: 6

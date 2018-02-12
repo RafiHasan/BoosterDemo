@@ -1,0 +1,16 @@
+navigation:
+- text: Account
+  url: /account-dashboard.html
+  urlTo: account-dashboard.html
+- text: My profile
+  url: /account-profile.html
+  urlTo: account-profile.html
+- text: Notifications
+  url: /account-notifications.html
+  urlTo: account-notifications.html
+- text: Payment methods
+  url: /account-payment.html
+  urlTo: account-payment.html
+- text: Create new ad
+  url: /start.html
+  urlTo: start.html

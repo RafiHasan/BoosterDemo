@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>CrowdFundr - A bootstrap 4 crowdfunding theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+	<!--<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">-->
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container-border">
+    <div class="container">
+      <div class="header">
+        <div class="nav nav-pills pull-right">
+          <span class="funky-text">Made by</span><br />
+          <span><a href="http://expresspixel.com/" style="color: #333333">ExpressPixel.com</a></span>
+        </div>
+        <h3 style="margin: 0; padding: 0; height: 20px;">CrowdFundr - A bootstrap 4 crowdfunding theme</h3>
+        <h3 style="margin: 0; padding: 0;"><small>&nbsp;</small></h3>
+      </div>
+
+	<div class="row">
+		<div class="col-lg-7">
+		<div class="col-lg-12">
+			<h4>What you need to know</h4>
+		</div>
+			<ul >
+								<li><a href="#how_to_use">How to use the template</a></li>
+								<li><a href="#changing_colours">Changing colours</a></li>
+								<li><a href="#changing_html">Customizing the HTML</a></li>
+								<li><a href="#extra_information">Extra information</a></li>
+								<li><a href="#credits">Credits</a></li>
+							</ul>
+		</div>		
+		<div class="col-lg-5">
+		<br />
+		<div class="well">
+			<p><strong>Support</strong><br />We provide support by twitter <a href="https://twitter.com/ExpressPixel">@expresspixel</a> or email  <a href="http://expresspixel.com/support/">&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#064;&#101;&#120;&#112;&#114;&#101;&#115;&#115;&#112;&#105;&#120;&#101;&#108;&#046;&#099;&#111;&#109;</a></p>
+		</div>
+		</div>
+	</div>
+	<br /><div class="row">
+	<div class="col-lg-12">
+		<p><strong>Licencing:</strong> Please view licencing information on <a href="http://expresspixel.com/licenses">http://expresspixel.com/licenses</a></p>
+	</div>
+</div>
+<br />
+<div class="row">
+	<div class="col-lg-12">
+		<h4 id="how_to_use">How to use the template</h4>
+	</div>		
+	<div class="col-lg-12">
+		<ol>
+	<li>
+		<p>To use this template you'll need to develop your own crowdfunding platform or use a pre-existing one.</p>
+	</li>				
+	<li>
+		<p>The easiest way to work with the theme is to include the stylesheets in "_includes/head.html" then use the different components and pre-built pages to build your system.</p>
+	</li>				
+	<li>
+		<p>Continue by replacing the existing theme HTML with the CrowdFundr HTML</p>
+	</li>
+</ol>	</div>
+</div>
+<br />
+<div class="row">
+	<div class="col-lg-12">
+		<h4 id="changing_colours">Changing colours</h4>
+	</div>		
+	<div class="col-lg-12">
+		<p>We use .scss files to control the colors and layout. You'll need to compile <strong>css/main.scss</strong> for the layout and styles. The bootstrap colors can be compiled using <strong>_css/_custom.scss</strong> and <strong>_css/_bootswatch.scss</strong>. The <strong>_css/_custom.scss</strong> contains all the colours and typography that you can edit for the theme.</p>	</div>
+</div>
+<br />
+<div class="row">
+	<div class="col-lg-12">
+		<h4 id="changing_html">Customizing the HTML</h4>
+	</div>		
+	<div class="col-lg-12">
+		<p>This theme uses mostly a 2 column layout. The '.container-fluid' is used to control the width of the page.</p>
+<p>The source files are built using Jekyll (note: You do not need to know how to use Jekyll, the template has full html code). These files are all found in files in the "src" directory. The individual components making up the layout of the page are found in the "_includes" directory. You can see these files in "_layouts/default.html". The pages are found in .html and .md front matter files used by Jekyll. One example of a page is the explore page "explore.html" - this extends "_layouts/default.html".</p>
+<p>The entire site is built in "html". You can use that directly if you prefer pure HTML.</p>
+<p>Below is an excerpt of the HTML structure. It has the nav on top followed by the inner content in either 'container' or 'container-fluid'. This is followed by the footer and modal boxes.</p>
+
+<img src="images/html.png" />
+	</div>
+</div>
+<br />
+<div class="row">
+	<div class="col-lg-12">
+		<h4 id="extra_information">Extra information</h4>
+	</div>		
+	<div class="col-lg-12">
+		<ol>
+	<li>
+		<p>We've used Jekyll to build the site - for those interested the docs are here <a href="https://jekyllrb.com/docs/home/">https://jekyllrb.com/docs/home/</a>.</p>
+	</li>	
+	<li>
+		<p>Jekyll uses Frontmatter and HTML for pages <a href="https://jekyllrb.com/docs/frontmatter/">https://jekyllrb.com/docs/frontmatter/</a>.</p>
+	</li>		
+	<li>
+		<p>Sass was used for compiling the templates <a href="http://sass-lang.com/install">http://sass-lang.com/install</a>. You can either use Jekyll itself to build it or use a GUI like Koala <a href="http://koala-app.com/">http://koala-app.com/</a>.</p>
+	</li>	
+</ol>	</div>
+</div>
+<br />
+<div class="row">
+	<div class="col-lg-12">
+		<h4 id="credits">Credits</h4>
+	</div>		
+	<div class="col-lg-12">
+		<ol >
+	<li>
+		Bootstrap v4.0.0-alpha.6 - <a href="https://v4-alpha.getbootstrap.com/">https://v4-alpha.getbootstrap.com/</a>
+	</li>	
+	<li>Bootswatch - <a href="http://bootswatch.com/">http://bootswatch.com/</a></li>
+	<li>jQuery - <a href="http://jquery.com/">http://jquery.com/</a></li>
+	<li>Images are taken from unsplash.it</li></li>
+
+</ol>	</div>
+</div>
+<br />
+<div class="row">
+	<div class="col-lg-12">
+		<small>* Please note that the documentation is sometimes updated. The latest can be found at <a href="http://docs.expresspixel.com/crowdfundr">http://docs.expresspixel.com/crowdfundr</a>.</small>
+	</div>
+</div>
+<br />      <div class="footer">
+        <p>&copy; <a href="http://expresspixel.com/" style="color: #333333">ExpressPixel</a> 2017</p>
+      </div>
+
+    </div> <!-- /container -->
+    </div> <!-- /container -->
+
+  </body>
+</html>
